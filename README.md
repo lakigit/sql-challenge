@@ -45,5 +45,6 @@ This Project contains three parts,
 - To delete tables, use the CASCADE option because project CSVs are linked with other tables. In PostgreSQL, the CASCADE option is used with the DROP TABLE command to drop the tables that have dependent objects. In PostgreSQL, the DROP TABLE drops single or multiple tables.
  
 # Code File
-- [`queries.sql`](https://github.com/lakigit/sql-challenge/blob/main/queries.sql)
-- [`schema.sql`](https://github.com/lakigit/sql-challenge/blob/main/schema.sql)
+- [`schema.sql`](https://github.com/lakigit/sql-challenge/blob/main/schema.sql) is codes for create tables.
+- [`queries.sql`](https://github.com/lakigit/sql-challenge/blob/main/queries.sql) is for other queries.
+
