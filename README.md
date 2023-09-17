@@ -40,7 +40,9 @@ This Project contains three parts,
 ![image](https://github.com/lakigit/sql-challenge/assets/138610916/28b2159f-37d9-4929-82e5-53f024ea9964)
 
      
- # Other Informations
-The CSV file of the employee includes their date of birth and date of hire in the MM/DD/YYYY format, whereas PostgreSQL uses the yyyy-mm-dd format to store and insert date values. As a result, both birth and hire dates are stored as "VARCHAR" instead of "DATE".
+# Other Information
+- The CSV file of the employee includes their date of birth and date of hire in the MM/DD/YYYY format, whereas PostgreSQL uses the yyyy-mm-dd format to store and insert date values. As a result, both birth and hire dates are stored as "VARCHAR" instead of "DATE".
+- To delete tables, use the CASCADE option because project CSVs are linked with other tables. In PostgreSQL, the CASCADE option is used with the DROP TABLE command to drop the tables that have dependent objects. In PostgreSQL, the DROP TABLE drops single or multiple tables.
  
-          
+# Code File
+- [``]()
