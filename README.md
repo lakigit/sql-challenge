@@ -5,15 +5,17 @@ Module 9 Challenge
 The major task of this research project is about people whom the company employed during the 1980s and 1990s. All that remains of the employee database from that period are six CSV files. 
 To analyse this project use **Postgres**
 This Project contains three parts,
-  1. **Data Modelling**
+  1. **Data Modelling**\
      Under the data modelling, Inspect the CSV files, and then sketch an ERD of the tables. To create the sketch, use this tool [https://app.quickdatabasediagrams.com/#/d/2rVgs3]
-  2. **Data Engineering**
+  2. **Data Engineering**\
      Under this topic, complete the following steps.
      - Specify the data types, primary keys, foreign keys, and other constraints.
      - For the primary keys, verify that the column is unique. Otherwise, create a [https://en.wikipedia.org/wiki/Composite_key], which takes two primary keys to uniquely identify a row.
      - Create the tables in the correct order to handle the foreign keys.
- 3. **Data Analysis**
-    The expected outputs are as follows. Here, included only the top 10 results for reference. 
+ 3. **Data Analysis**\
+    It is recommended to create an Entity Relationship Diagram (ERD) before commencing the analysis process.\
+    To get ERD visit [`ERD.png`](https://github.com/lakigit/sql-challenge/blob/main/ERD.png)
+- The expected outputs are as follows. Here, included only the top 10 results for reference.
     1. List the employee number, last name, first name, sex, and salary of each employee.\
     **Output:**\
  ![image](https://github.com/lakigit/sql-challenge/assets/138610916/979dddf1-9392-47bf-99b1-682fdc6d414f)
@@ -47,4 +49,5 @@ This Project contains three parts,
 # Code File
 - [`schema.sql`](https://github.com/lakigit/sql-challenge/blob/main/schema.sql) is codes for create tables.
 - [`queries.sql`](https://github.com/lakigit/sql-challenge/blob/main/queries.sql) is for other queries.
+- [`ERD_table schema.txt`](https://github.com/lakigit/sql-challenge/blob/main/ERD_table%20schema.txt) is code for create ERD.
 
