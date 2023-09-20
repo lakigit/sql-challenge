@@ -1,10 +1,10 @@
 --query table
 SELECT * FROM departments;
 SELECT * FROM dept_emp;
-SELECT * FROM dept_managers;
+SELECT * FROM titles;
 SELECT * FROM employees;
 SELECT * FROM salaries;
-SELECT * FROM titles;
+SELECT * FROM dept_managers;
 
 --------------01.List the employee number, last name, first name, sex, and salary of each employee.------------
 
